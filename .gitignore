@@ -1,0 +1,36 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Database backups
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Kubernetes secret manifests
+*-secret.yaml
+*-secret.yml
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Operating system files
+.DS_Store
+Thumbs.db
