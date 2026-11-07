@@ -22,3 +22,12 @@ the Temenos/Kony Fabric Disaster Recovery environment.
 ## Purpose
 Version control for infrastructure configurations,
 Kubernetes manifests, Helm charts and CI/CD automation.
+
+## DR Testing Workflow
+
+1. Verify the primary on-premises Kubernetes environment.
+2. Validate AWS EKS cluster health.
+3. Verify container images are available in Amazon ECR.
+4. Validate database availability in the DR environment.
+5. Perform application recovery using Kubernetes and Helm.
+6. Validate application connectivity after recovery.
