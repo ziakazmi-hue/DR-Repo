@@ -28,6 +28,6 @@ Kubernetes manifests, Helm charts and CI/CD automation.
 1. Verify the primary on-premises Kubernetes environment.
 2. Validate AWS EKS cluster health.
 3. Verify container images are available in Amazon ECR.
-4. Validate DR database availability, data freshness, and standby read-only status..
+4. Validate DR database availability, data freshness, and standby read-only status.
 5. Perform application recovery using Kubernetes and Helm.
 6. Validate application connectivity after recovery.
