@@ -1,0 +1,19 @@
+Temenos Disaster Recovery Plan
+
+Primary Environment:
+On-premises Kubernetes cluster
+
+Disaster Recovery Environment:
+AWS EKS - ap-southeast-2
+
+Container Registry:
+Amazon ECR
+
+Database:
+AWS EC2 MySQL
+
+Orchestration:
+Kubernetes and Helm
+
+Purpose:
+Document DR testing activities and recovery procedures.
