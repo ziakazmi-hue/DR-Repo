@@ -1,36 +1,21 @@
-# Environment files
-.env
-.env.*
-!.env.example
-
-# Credentials and secrets
-*.pem
-*.key
-*.p12
-*.pfx
-*.jks
-*.keystore
-
-# Database backups
-*.sql
-*.sql.gz
-*.dump
-*.bak
-
-# Kubernetes secret manifests
-*-secret.yaml
-*-secret.yml
-
-# Temporary files
-*.tmp
-*.log
-*.swp
-
-# Terraform
+**/.terraform/*
 *.tfstate
 *.tfstate.*
-.terraform/
-
-# Operating system files
-.DS_Store
-Thumbs.db
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+!example.tfvars
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+kubeconfig*
+.env
+secrets*
+*.sql
+*.tar
+*.tar.gz
+*.zip
